@@ -1,0 +1,182 @@
+body {
+	font-family: sans-serif;
+
+	font-size: 20px;
+}
+html,
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	width: 89px;
+	height: 89px;
+	border-radius: 128px;
+}
+
+header {
+	background-color: #4b5b57;
+	display: flex;
+	align-items: center;
+
+	padding: 17px;
+}
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+nav a {
+	background-color: #fbc400;
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: black;
+	text-decoration: none;
+	transition: 250ms;
+}
+nav a:hover {
+	transition: 250ms;
+	transform: scale(1.05);
+}
+
+.pizza {
+	width: 100%;
+}
+.jo {
+	width: 100%;
+	height: 500px;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: brightness(50%);
+}
+.hero {
+	position: relative;
+}
+
+.knopka {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: url(' https://play-lh.googleusercontent.com/E4IDRelX2UjyOPBuk5hKSIGX_HBh_r5cyt40pQS2Nk-5Tlpzl4UP9L9NbLCz16L9WC8=w240-h480-rw');
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	left: 50%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 40px;
+}
+
+.far {
+	position: absolute;
+	text-align: center;
+	top: 100px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;
+}
+
+.raf {
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	text-align: center;
+	top: 200px;
+
+	font-size: 24px;
+
+	width: 581px;
+	color: #ffffff;
+}
+
+.meny {
+	padding: 40px 50px;
+	background-color: #fbc400;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.action {
+	background-color: #fbc400;
+}
+
+.cak {
+	width: 250px;
+	height: 170px;
+}
+
+.meny_img {
+	width: 30%;
+
+	border: 10px solid #d9d9d9;
+}
+.meny article img {
+	width: 80%;
+	height: 80%;
+	margin-bottom: 40px;
+}
+
+.meny article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px 10px;
+	background-color: white;
+	border-radius: 15px;
+	text-align: left;
+	max-width: 35%;
+	box-shadow: 0 1px 10px 0px gray;
+	transition: 250ms;
+}
+.meny article:hover {
+	transform: scale(1.05);
+	transition: 250ms;
+}
+
+.da {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.gogle {
+	width: 40px;
+}
+
+.insta {
+	width: 40px;
+}
+footer {
+	padding: 20px 40px;
+	background-color: gray;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.media {
+	text-align: center;
+}
+.media__container {
+	display: flex;
+	justify-content: space-between;
+}
+.media a {
+	transition: 250ms;
+}
+.media a:hover {
+	transition: 250ms;
+	transform: scale(1.1);
+}
